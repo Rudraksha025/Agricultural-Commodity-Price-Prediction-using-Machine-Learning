@@ -9,6 +9,7 @@ an iterative Interquartile Range (IQR) method for outlier removal, resulting in 
 for model training. Categorical features, encompassing geographical, product, and temporal 
 aspects, were transformed into numerical representations using label encoding, with 
 corresponding mapping dictionaries preserved for future application.  
+
 A Random Forest Regressor was selected as the predictive model and trained on the prepared 
 data, achieving a robust R-squared score of approximately 0.88 on unseen test data, indicating 
 a strong predictive capability. 
